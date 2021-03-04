@@ -106,10 +106,12 @@ name: fragen
 background-image: url("http://www.naturephotos.dk/GalleriPics/193_100923183758.jpg")
 background-size: cover
 
-class: inverse, center, middle
+class: inverse, middle
 
 # Fragen?
 
+
+.footnote[[Bildquelle](http://www.naturephotos.dk/GalleriPics/193_100923183758.jpg)]
 
 
 
