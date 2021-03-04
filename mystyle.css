@@ -1,0 +1,10 @@
+
+
+ul li::marker {
+  content: "❯ ";
+}
+
+.footnote {
+  font-size: 50%;
+}
+

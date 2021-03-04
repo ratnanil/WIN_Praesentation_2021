@@ -1,0 +1,283 @@
+---
+title: "Ein Update von der Wädenswiler Wiesel Front"
+subtitle: ""
+author: "Nils Ratnaweera"
+institute: "ZHAW"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: [default, default-fonts, mystyle.css]
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+class: inverse
+
+
+```{r, echo = FALSE}
+library(fontawesome)
+```
+
+
+## Themen
+
+- Monitoring von Nistkammern
+- Nachweiserfolge von Spurentunnel-Untersuchungen
+- Detektionswahrscheinlichkeit von Spurentunnel
+- Asthaufen mit Fernerkundungsdaten detektieren
+- Automatisierte Bilderkennung
+
+
+---
+
+class: inverse, center, middle
+layout: false
+
+## Monitoring von Nistkammern
+
+
+---
+
+class: inverse
+layout: true
+
+## Monitoring von Nistkammern
+
+---
+
+
+.center[<img src="images/20180317_093955.jpg" alt="image2", style = "width: 80%;">]
+
+---
+
+
+- Zeitraum: April 2017 - August 2018
+- Anzahl Einzelbilder: > 31'0000
+- Bilderserien: > 11'000 "registrierte Besuche"
+
+
+
+---
+
+<img src="images/nistkastenmonitoring.png" alt="image2", style = "width: 100%;">
+
+
+
+???
+
+Die Anzahl registrierter Besuche ist unmittelbar
+nach Erstellung des Asthaufens vergleichsweise
+gering, nimmt aber schon im ersten halben Jahr zu
+und erreicht nach 6 Monaten einen
+Peak. Soviel Zeit brauchten die Tiere anscheinend,
+um die neue Struktur zu finden und für sich
+zu nutzen. So wurde die höchste Anzahl Besuche
+(1669) im Monat Oktober, ziemlich genau sechs
+Monate nach der Erstellung, registriert.
+
+
+---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/L8GTrNWflxA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+<img src="images/unr_magazin.jpg" alt="image2", style = "width: 90%;">
+
+https://www.zhaw.ch/de/lsfm/institute-zentren/iunr/ueber-uns/iunr-magazin/
+---
+
+layout: false
+class: inverse, center, middle
+
+## Nachweiserfolge von Spurentunnel-Untersuchungen
+
+---
+class: inverse
+layout: true
+
+## Nachweiserfolge von Spurentunnel-Untersuchungen
+
+
+---
+
+Zieldefinition (Müri und Weinberger, 2015)
+
+.footnote[Müri, H. und Weinberger, I. (2015): *Wiesellandschaft Schweiz: Erfolgskontrolle für intensive Wieselförderprojekte Kurzfassung für Projektleiter. WIN Wieselnetz - Erfolgskontrolle Wiesellandschaft (unveröffentlicht)*]
+
+
+> Mind. 50 % der aufgewerteten Kleinstrukturen sollen von Wieseln (Hermelin oder Mauswiesel) begangen werden.
+
+--
+
+> In mind. 75 % der untersuchten Patches1 des Populationsraums sollen Nachweise von Hermelinen erbracht werden.
+
+--
+
+> In mind. 25 % der untersuchten Patches1 des Populationsraums sollen Nachweise von Mauswieseln erbracht werden.
+
+
+---
+
+
+
+> From: Ratnaweera Nils (rata)
+
+> Sent: 02 September 2020 11:41
+
+> To: ...
+
+> Subject: Wiesel-Nachweiserfolg bei Attraktivitätskontrollen
+
+> Hallo Miteinander,
+
+> Wir sind gerade dabei, den Bericht für eine Wirkungskontrolle zu verfassen. Um unsere Resultate zu vergleichen wären wir sehr froh um Referenzwerte. Deshalb die Frage an euch: Welcher Anteil aller Spurentunnel haben in eurer Erfolgskontrolle mindestens einen Hermelinnachweis erzielt, und wie viele Spurentunnel habt ihr eingesetzt? Von ein paar Studien habe ich bereits die Daten erhalten (danke dafür!!) und habe diese in der nachstehenden Grafik visualisiert (die Zahlen habe ich selbst berechnet und muss ich noch überprüfen, ebenso die korrekte Zitierweise). Ich kann die Werte gerne in einer Tabelle allen zur Verfügung stellen, ich denke dies kann helfen die eigenen Resultate in einen Kontext zu setzen.
+
+
+---
+
+<img src="images/nachweiserfolge_zusammenstellung.png" alt="image2", style = "width: 90%;">
+
+
+---
+
+
+layout: false
+class: inverse, center, middle
+
+## Detektionswahrscheinlichkeit von Spurentunnel
+
+
+---
+class: inverse
+layout: true
+
+## Detektionswahrscheinlichkeit von Spurentunnel
+
+
+.footnote[Steffen, F. (2020): Nachweiswahrscheinlichkeit von Hermelinen (Mustela erminea) mittels Spurentunnel. Bachelorarbeit. Zürcher Hochschule für Angewandte Wissenschaften ZHAW, Wädenswil]
+---
+
+
+.center[<img src="images/ba_steffen_titelblatt.jpg" alt="image2", style = "width: 40%; box-shadow:5px 5px 5px #999;">]
+
+
+???
+
+Nun wurden die Daten aus den in der Schweiz
+durchgeführten Monitorings und Erfolgskontrollen zusammengetragen, um auf dieser
+Datengrundlage mit einem sogenannten «Site Occupancy Models» zu berechnen, wie
+wahrscheinlich es ist, anwesende Hermeline mit dieser Methode nachzuweisen, und wie viele der
+untersuchten Standorte effektiv durch Hermeline besetzt sind
+
+---
+
+.center[<img src="images/steffen_1.png" alt="image2", style = "width: 40%; ">]
+
+> Es resultierte ein durchschnittlicher Wert von 22% Nachweiswahrscheinlichkeit.
+
+???
+
+Es resultierte ein durchschnittlicher Wert von 22% Nachweiswahrscheinlichkeit. Bei einer Mehrheit der durchgeführten Erhebungen liegt dieser Wert zwischen 29% und 24%, bei einer gesamten Bandbreite von 5% bis 54%.
+
+---
+
+.center[<img src="images/steffen_2.png" alt="image2", style = "width: 40%; ">]
+
+> Mit einer Nachweiswahrscheinlichkeit von 22% kann bei einer Untersuchungsdauer von 6 Wochen zu 80% ausgeschlossen werden, dass anwesende Hermeline nicht nachgewiesen werden können.
+
+> Für eine 95-prozentige Sicherheit ist der doppelte Aufwand von 12 Wochen nötig.
+
+???
+
+Mit einer Nachweiswahrscheinlichkeit von 22% kann bei einer Untersuchungsdauer von 6 Wochen zu 80% ausgeschlossen werden, dass anwesende Hermeline nicht nachgewiesen werden können. Für eine 95-prozentige Sicherheit ist der doppelte Aufwand von 12 Wochen nötig.
+
+---
+
+Die gesamte Arrbeit liegt auf der Dropbox: 
+
+- [dropbox.com/home/Projektleiter Wieselnetz/Fachliteratur/Bachelorarbeit_Stefen.pdf](https://www.dropbox.com/s/6336pjbxfmml7nt/Bachelorarbeit_Steffen.pdf?dl=0)
+
+---
+layout: false
+class: inverse, center, middle
+
+## Asthaufen mit Fernerkundungsdaten detektieren
+
+
+---
+class: inverse
+layout: true
+
+## Asthaufen mit Fernerkundungsdaten detektieren
+
+
+.footnote[Inauen, J. (2020): Wiesel-Habitatvernetzung in neuem Licht: Ein Ansatz zur Erfassung von Kleinstrukturen mittels LiDAR, Bachelorarbeit (unveröffentlicht), ZHAW, Wädenswil]
+---
+
+
+.center[<img src="images/ba_inauen_titelblatt.jpg" alt="image2", style = "width: 40%; box-shadow:5px 5px 5px #999;">]
+
+---
+
+.center[<img src="images/inauen_1.jpg" alt="image2", style = "width: 40%;">]
+
+---
+
+.center[<img src="images/inauen_2.jpg" alt="image2", style = "width: 80%;">]
+
+---
+
+.center[<img src="images/inauen_3.jpg" alt="image2", style = "width: 60%;">]
+
+---
+
+.center[<img src="images/inauen_4.jpg" alt="image2", style = "width: 80%;">]
+---
+
+.center[<img src="images/opendata.jpg" alt="image2", style = "width: 40%;">]
+
+---
+
+layout: false
+class: inverse, center, middle
+
+## Automatisierte Bilderkennung
+
+
+---
+class: inverse
+layout: true
+
+## Automatisierte Bilderkennung
+
+---
+
+<img src="images/mostela interior.png" alt="image2", style = "width: 50%; float: left; padding: 0px 20px 0px 0px;">
+
+<img src="images/mostela traps.png" alt="image2", style = "width: 50%;">
+
+
+---
+
+<img src="images/hermelin_serie_1.jpg" alt="image2", style = "width: 20%;">
+<img src="images/hermelin_serie_2.jpg" alt="image2", style = "width: 20%;">
+<img src="images/hermelin_serie_3.jpg" alt="image2", style = "width: 20%;">
+<img src="images/hermelin_serie_4.jpg" alt="image2", style = "width: 20%;">
+<img src="images/hermelin_serie_5.jpg" alt="image2", style = "width: 20%;">
+<img src="images/hermelin_serie_6.jpg" alt="image2", style = "width: 20%;">
+<img src="images/hermelin_serie_7.jpg" alt="image2", style = "width: 20%;">
+<img src="images/hermelin_serie_8.jpg" alt="image2", style = "width: 20%;">
+
+---
+
+<img src="images/apodemus_series_1.jpg" alt="image2", style = "width: 20%;">
+<img src="images/apodemus_series_2.jpg" alt="image2", style = "width: 20%;">
+<img src="images/apodemus_series_3.jpg" alt="image2", style = "width: 20%;">
+<img src="images/apodemus_series_4.jpg" alt="image2", style = "width: 20%;">
+<img src="images/apodemus_series_5.jpg" alt="image2", style = "width: 20%;">
+<img src="images/apodemus_series_6.jpg" alt="image2", style = "width: 20%;">
+<img src="images/apodemus_series_7.jpg" alt="image2", style = "width: 20%;">
+<img src="images/apodemus_series_8.jpg" alt="image2", style = "width: 20%;">
